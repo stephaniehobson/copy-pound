@@ -3,7 +3,7 @@
   "manifest_version": 2,
   "name": "Copy Pound",
   "version": "1.0",
-  "homepage_url": "https://github.com/stephaniehobson/copypound",
+  "homepage_url": "https://github.com/stephaniehobson/copy-pound",
   "icons": {
     "48": "icons/copypound.svg"
   },
