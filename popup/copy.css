@@ -1,0 +1,66 @@
+html,
+body {
+  width: 200px;
+  background-color: #fff;
+}
+
+.hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+#popup-buttons {
+  width: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+}
+
+.copied #popup-buttons {
+    display: none;
+}
+
+button {
+  background-color: #fff;
+  border-radius: 2px;
+  border: none;
+  color: #000;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 8px;
+}
+
+button:hover,
+button:focus {
+  background-color: #ededf0;
+}
+
+button:focus {
+  box-shadow: 0 0 0 1px #0a84ff inset,
+    0 0 0 1px #0a84ff,
+    0 0 0 4px rgba(10, 132, 255, 0.3);
+}
+
+button:active {
+  background-color: #b1b1b3;
+}
+
+#message {
+    background-color: #058b00;
+    border-radius: 4px;
+    color: #fff;
+    padding: 8px 8px 7px 8px;
+    margin-top: 8px;
+    display: none;
+}
+
+.copied #message {
+    display: block;
+}

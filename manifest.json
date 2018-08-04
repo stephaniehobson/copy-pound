@@ -1,0 +1,16 @@
+{
+  "description": "Adds an icon to the toolbar. Click the icon to choose a symbol to copy to the clipboard.",
+  "manifest_version": 2,
+  "name": "Copy Pound",
+  "version": "1.0",
+  "homepage_url": "https://github.com/stephaniehobson/copypound",
+  "icons": {
+    "48": "icons/copypound.svg"
+  },
+
+  "browser_action": {
+    "default_icon": "icons/copypound.svg",
+    "default_title": "Copy pound",
+    "default_popup": "popup/copy.html"
+  }
+}
