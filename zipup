@@ -1,0 +1,10 @@
+#!/bin/bash
+VERSION="$1"
+if [ "z$VERSION" = z ]; then
+  echo "Usage: $0 <version>"
+  exit 1
+fi
+
+rm -rf */.DS_Store
+zip -r ../copy-pound.zip LICENSE README.md icons/ manifest.json popup/
+git tag -a copy-pound-$(VERSION) -m "$(VERSION) release"
