@@ -1,4 +1,4 @@
-var symbols = ['£','€','¥','$','¢','©','™','®','°C','°F','•'];
+var symbols = ['°C','°F','°'];
 var inputsDiv = document.querySelector('#popup-inputs');
 var buttonsDiv = document.querySelector('#popup-buttons');
 
